@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#88000000">
+
+
+<TextView
+    style="@style/windowStyle"
+    android:id="@+id/speed_up"
+    android:text="[Upload]" />
+
+<TextView
+    style="@style/windowStyle"
+    android:id="@+id/speed_down"
+    android:text="[Download]" />
+
+    <LinearLayout
+        android:layout_marginBottom="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            style="@style/windowStyle"
+            android:id="@+id/battery"
+            android:text="[Battery]" />
+
+        <TextView
+            style="@style/windowStyle"
+            android:id="@+id/net_status"
+            android:text="[Status]" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
